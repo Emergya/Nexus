@@ -9,6 +9,8 @@ function nexus_html_head_alter(&$head_elements) {
   );
 }
 
+
+
 /**
  * Insert themed breadcrumb page navigation at top of the node content.
  */
@@ -118,6 +120,13 @@ function nexus_preprocess_html(&$vars) {
  * Override or insert variables into the page template.
  */
 function nexus_preprocess_page(&$vars) {
+	
+	if ($vars['is_front']) {
+    $path = drupal_get_path('theme', 'nexus');
+    drupal_add_js($path . '/js/jquery.fullPage.js');
+     drupal_add_css($path . '/css/jquery.fullPage.css');
+    $vars['scripts'] = drupal_get_js();
+  }
 
   if (isset($vars['node_title'])) {
     $vars['title'] = $vars['node_title'];
