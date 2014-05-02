@@ -1,5 +1,5 @@
 name = Nexus Theme
-description = Nexus Theme is a premium Drupal 7 theme. Developed by <a href="http://www.devsaran.com">Devsaran.com</a> & <a href="http://twitter.com/nesta_">Nesta</a>.
+description = Nexus Theme is a premium Drupal 7 theme. NEW Developed by <a href="http://twitter.com/nesta_">Nesta</a>, <a href="http://twitter.com/keilovecraft">Maria del Carmen</a>.
 core = 7.x
 engine = phptemplate
 stylesheets[all][] = css/main.css
@@ -37,10 +37,3 @@ settings[breadcrumbs]  = 1
 settings[slide1_head]  = "Sample product"
 settings[slide1_desc]  = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor..."
 settings[slide1_url]  = "node/1"
-
-; Information added by Drupal.org packaging script on 2014-04-23
-version = "7.x-2.x-dev"
-core = "7.x"
-project = "nexus"
-datestamp = "1398247728"
-
