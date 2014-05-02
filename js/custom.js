@@ -1,5 +1,29 @@
 jQuery(window).load(function() {
+
+	jQuery('#tooltip button').hover(function () {
+  	jQuery(this).tooltip('toggle');
+  });
   
+ 
+  
+ jQuery('#popover button').click(function() {
+		jQuery(this).popover('destroy');
+  	jQuery(this).toggleClass("click");
+  	if (jQuery(this).hasClass("click")){
+  	jQuery(this).popover('show');
+  	};
+
+  });
+  
+/*	jQuery('#popover button').click(function() {
+		jQuery(this).popover('toggle');
+  });*/
+
+  
+  jQuery('.carousel').carousel({
+  interval: 2000
+});
+
   jQuery(".button_grid").click(function(){
     jQuery("body").toggleClass("grid");
   });

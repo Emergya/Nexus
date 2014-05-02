@@ -1,12 +1,25 @@
 name = Nexus Theme
-description = Nexus Theme is a premium Drupal 7 theme. NEW Developed by <a href="http://twitter.com/nesta_">Nesta</a>, <a href="http://twitter.com/keilovecraft">Maria del Carmen</a>.
+description = Nexus Theme is a premium Drupal 7 theme. Developed by <a href="http://www.devsaran.com">Devsaran.com</a> & <a href="http://twitter.com/nesta_">Nesta</a>.
 core = 7.x
 engine = phptemplate
 stylesheets[all][] = css/main.css
 stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/examples.css
 scripts[] = js/bootstrap/collapse.js
+scripts[] = js/bootstrap/modal.js
+scripts[] = js/bootstrap/dropdown.js
+scripts[] = js/bootstrap/scrollspy.js
+scripts[] = js/bootstrap/tab.js
+scripts[] = js/bootstrap/tooltip.js
+scripts[] = js/bootstrap/popover.js
+scripts[] = js/bootstrap/alert.js
+scripts[] = js/bootstrap/button.js
+scripts[] = js/bootstrap/carousel.js
+scripts[] = js/bootstrap/affix.js
+
 scripts[] = js/custom.js
 scripts[] = js/css_browser.js
+
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
 regions[top_bar]        = Top Bar
@@ -37,3 +50,10 @@ settings[breadcrumbs]  = 1
 settings[slide1_head]  = "Sample product"
 settings[slide1_desc]  = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor..."
 settings[slide1_url]  = "node/1"
+
+; Information added by Drupal.org packaging script on 2014-04-23
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "nexus"
+datestamp = "1398247728"
+
